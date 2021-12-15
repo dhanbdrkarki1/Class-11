@@ -1,0 +1,11 @@
+body{margin:0;background-color:#f1f1f1;}
+header{background-color:#3333cc;color:white;padding:20px;text-align:center;}
+h1{font-family:"Comic Sans MS";	}
+div id{text-align:left;font-size:20px;}
+nav{overflow:hidden;background-color:#333;}
+nav a{float:left;color:#fff;padding:14px 16px;text-decoration:none;}
+a:hover{background-color:red;color:yellow;}
+.column{float:left;padding:10px;}
+.column.side{width:22%;}
+.column.middle{width:22%}
+footer{background-color:yellow;text-align:center;clear:both;color:white;font-size:20px;padding:10px;}

@@ -1,0 +1,67 @@
+<html>
+<head>
+<title>Form Complete</title>
+<style>
+body{
+background-color:green;
+margin:50;
+}
+.container{
+border:1px solid black;
+background-color:#33cccc;
+color:red;
+padding:10px;
+margin:auto;
+max-width:450px;
+}
+input[type=submit]:hover{
+background:#3366cc;
+}
+input[type=reset]:hover{
+background:#00cc00;
+}
+</style>
+</head>
+<body>
+<font color=red>
+<form action="https://www.google.com" action="post">
+<div class="container">
+<table align=center>
+	<center><h2><b><u>Your Sign In Page<b></h2></u></center>
+		<tr>
+		<td>
+Name: <input type="text" name="" placeholder="Name">
+</td></tr>
+<tr><td>Gender:
+</td></tr>
+<tr><td>
+<input type="radio" name="gender" value="male" checked> Male<br>
+<input type="radio" name="gender" value="female"> Female<br>
+<input type="radio" name="gender" value="other"> Other
+</tr></td>
+<tr><td>Country: <select size=1>
+         <option>Nepal</option>
+		  <option>India</option>
+		   <option>America</option>
+		    <option>Denmark</option>
+			 <option>France</option>
+		  <option>Germany</option>
+		 </select>
+</td></tr>		 
+<tr><td>Address: <input type="text" name="Country" placeholder="Haldibari-3,jhapa" value="" ></td></tr>
+<tr><td>Email: <input type="text"  placeholder="john@gmail.com" name="" value=""></td></tr>
+<tr><td>Upload photo:<br>
+	<input type="file"></td></tr>
+<tr><td>Hobbies:<input type="checkbox">Movie
+                <input type="checkbox">Music 
+				<input type="checkbox">Game</td></tr>
+<tr><td>Experiences:<br><textarea rows=3 cols=50 placeholder="write about your qualification and experience"></textarea></td></tr>
+<tr><td><input type="submit" value="Login"> 
+        <input type="reset" value="clear"></td></tr>
+</table>
+</font>
+
+</div>
+</form>
+</body>
+</html>

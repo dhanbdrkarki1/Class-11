@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<style>
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+div {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 40px;
+}
+</style>
+<body>
+<h3>Simple form using CSS</h3>
+<div>
+  <form action="http://www.duckduckgo.com">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" placeholder="First Word of your name" name="firstname">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" placeholder="Last Word of your name" name="lastname">
+    <labelfor="gender">Gender</label>
+    <select> 
+      <option >Male</option>
+      <option>Female</option>
+      <option>Others</option>  
+    </select>
+	 <label for="country">Country</label>
+	<select id="Country" name="Country">
+      <option value="Nepal">Nepal</option>
+      <option value="China">China</option>
+      <option value="usa">USA</option>
+	        <option value="Austraila">Australia</option>
+			      <option value="India">India</option>
+    </select>
+    <input type="submit" value="Submit">
+  </form>
+</div>
+</body>
+</html>
